@@ -32,7 +32,7 @@ The architecture of the mini honeynet in Azure consists of the following compone
 For the "AFTER" metrics, Network Security Groups were hardened by blocking ALL traffic with the exception of my admin workstation, and all other resources were protected by their built-in firewalls as well as Private Endpoint
 
 ## Attack Maps Before Hardening / Security Controls
-![NSG Allowed Inbound Malicious Flows](https://i.imgur.com/1qvswSX.png)<br>
+![mssql Auth Failures](https://github.com/vshuyong/Shuyong/blob/main/mssql-auth-fail.png)<br>
 ![Linux Syslog Auth Failures](https://github.com/vshuyong/Shuyong/blob/main/Screenshot%202024-06-29%20100418.png)<br>
 ![Windows RDP/SMB Auth Failures](https://github.com/vshuyong/Shuyong/blob/main/Windows-rdp-auth-fail.png)<br>
 
